@@ -1,0 +1,128 @@
+body {
+  font-family:'Playfair Display', serif;
+  background-color:#FFF8F0;
+  color: #0d021c;
+  text-align: center;
+}
+
+
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid #d32adf;
+}
+
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  top: 0;              /*stick to top*/ 
+}
+
+
+section, article, table, form, h2 {
+  scroll-margin-top: 250px;     /*for a clear view of sections while scrolling */
+}
+
+
+nav {
+  background-color: #E0B0FF; 
+  color: rgb(8, 1, 1);
+  padding: 20px; 
+}
+
+
+.nav-links a {
+  color: #4a226d;
+  margin: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #8B008B;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+#Main-Content h2 {
+  color: #000000; 
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+
+th, td {
+  border: 2px solid #f569ff;
+  padding: 10px;
+  font-weight: bold;
+  color: #000000; 
+}
+
+
+tr:nth-child(even) {
+  background-color: #ffe6f0; 
+}
+
+
+form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ca4dc6;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #000000; 
+}
+
+
+button {
+  background-color:#f314ff ;
+  color: rgb(15, 1, 1);
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+button:hover {
+  background-color:#7e1cbe;
+}
+
+
+footer {
+  background-color: #E0B0FF;
+  color: rgb(4, 0, 0);
+  padding: 15px 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
